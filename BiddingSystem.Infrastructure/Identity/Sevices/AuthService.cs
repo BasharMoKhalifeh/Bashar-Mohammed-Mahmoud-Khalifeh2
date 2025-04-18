@@ -1,4 +1,8 @@
-﻿using BiddingSystem.Domain.Enums;
+﻿using BiddingSystem.Application.DTOs.UserDtos;
+using BiddingSystem.Domain.Enums;
+using BiddingSystem.Infrastructure.Identity.Interfaces;
+using Microsoft.AspNetCore.Identity;
+using NETCore.MailKit.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -94,13 +98,18 @@ namespace BiddingSystem.Infrastructure.Identity.Sevices
             // This would typically come from database
             return userTypeId switch
             {
-                1 => UserRoles.Administrator,
-                2 => UserRoles.ProcurementOfficer,
-                3 => UserRoles.Bidder,
-                4 => UserRoles.Evaluator,
-                _ => UserRoles.Bidder
+                1 => UserRole.Administrator,
+                2 => UserRole.ProcurementOfficer,
+                3 => UserRole.Bidder,
+                4 => UserRole.Evaluator,
+                _ => UserRole.Bidder
             };
+        }
+
+        public Task<AuthResult> RefreshTokenAsync(string token, string refreshToken)
+        {
+            throw new NotImplementedException();
         }
     }
 }
-}
+

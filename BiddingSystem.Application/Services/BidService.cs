@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using BiddingSystem.Application.DTOs.BidDtos;
 using BiddingSystem.Application.Interfaces;
+using BiddingSystem.Application.Repositories.Interfaces;
 using BiddingSystem.Infrastructure.Persistence.UnitOfWork;
 using System;
 using System.Collections.Generic;

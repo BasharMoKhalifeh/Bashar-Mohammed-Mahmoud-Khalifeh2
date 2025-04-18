@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiddingSystem.Api", "BiddingManagementSystemm\BiddingSystem.Api.csproj", "{C480C19A-6CD0-4FD4-8E77-CB86F3241EEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BiddingSystem.Api", "BiddingManagementSystemm\BiddingSystem.Api.csproj", "{C480C19A-6CD0-4FD4-8E77-CB86F3241EEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiddingSystem.Domain", "BiddingSystem.Domain\BiddingSystem.Domain.csproj", "{B275CEE4-C844-427E-8932-3B2C8F040EE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BiddingSystem.Domain", "BiddingSystem.Domain\BiddingSystem.Domain.csproj", "{B275CEE4-C844-427E-8932-3B2C8F040EE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiddingSystem.Application", "BiddingSystem.Application\BiddingSystem.Application.csproj", "{B5999A48-EB07-48A9-88E8-9F1855E220FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BiddingSystem.Application", "BiddingSystem.Application\BiddingSystem.Application.csproj", "{B5999A48-EB07-48A9-88E8-9F1855E220FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiddingSystem.Infrastructure", "BiddingSystem.Infrastructure\BiddingSystem.Infrastructure.csproj", "{5E0738E7-0824-44DF-A208-FA96C7E246CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BiddingSystem.Infrastructure", "BiddingSystem.Infrastructure\BiddingSystem.Infrastructure.csproj", "{5E0738E7-0824-44DF-A208-FA96C7E246CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

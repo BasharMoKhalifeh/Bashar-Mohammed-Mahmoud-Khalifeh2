@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BiddingSystem.Application.DTOs.UserDtos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

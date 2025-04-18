@@ -17,7 +17,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\BiddingSystem.Application\BiddingSystem.Application.csproj" />
+    <ProjectReference Include="..\BiddingSystem.Infrastructure\BiddingSystem.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

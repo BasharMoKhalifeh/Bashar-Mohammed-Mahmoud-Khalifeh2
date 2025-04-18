@@ -1,6 +1,9 @@
-﻿using BiddingSystem.Application.DTOs.TenderDtos;
+﻿using AutoMapper;
+using BiddingSystem.Application.DTOs.TenderDtos;
 using BiddingSystem.Application.Interfaces;
+using BiddingSystem.Application.Repositories.Interfaces;
 using BiddingSystem.Domain.Enums;
+using BiddingSystem.Infrastructure.Persistence.UnitOfWork;
 using System;
 using System.Collections.Generic;
 using System.Fabric.Query;

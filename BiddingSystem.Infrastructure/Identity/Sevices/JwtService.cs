@@ -1,4 +1,8 @@
-﻿using Microsoft.Extensions.Options;
+﻿using BiddingSystem.Application.DTOs.UserDtos;
+using BiddingSystem.Infrastructure.Identity.Interfaces;
+using Jose;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
@@ -86,4 +90,4 @@ namespace BiddingSystem.Infrastructure.Identity.Sevices
         }
     }
 }
-}
+

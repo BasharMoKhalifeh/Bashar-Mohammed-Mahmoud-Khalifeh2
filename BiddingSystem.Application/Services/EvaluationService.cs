@@ -1,5 +1,7 @@
 ﻿using BiddingSystem.Application.DTOs.BidDtos;
+using BiddingSystem.Application.DTOs.TenderDtos;
 using BiddingSystem.Application.Interfaces;
+using BiddingSystem.Application.Repositories.Interfaces;
 using BiddingSystem.Domain.Enums;
 using BiddingSystem.Infrastructure.Persistence.UnitOfWork;
 using System;
@@ -95,4 +97,4 @@ namespace BiddingSystem.Application.Services
         // Other methods implemented similarly...
     }
 }
-}
+
